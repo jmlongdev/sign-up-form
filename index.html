@@ -5,9 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Sign Up Today!</title>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <div class="logo">
+      <img class="viking" src="odin-lined.png" alt="odin" />
+      <p class="odin">Odin</p>
+    </div>
+    <main class="container">
+      <img class="photo" src="tree.jpg" />
+      <div class="right-side">
+        <div class="description">
+          <p>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            <em>now</em> to get started
+          </p>
+          <p class="know">You <em>know</em> you want to</p>
+        </div>
+        <h1>Let's do this!</h1>
+        <form action="#" class="form">
+          <div class="inputs">
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" id="firstname" required />
+          </div>
+          <div class="inputs">
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname" required />
+          </div>
+          <div class="inputs">
+            <label for="email">Email</label>
+            <input type="email" id="email" required />
+          </div>
+          <div class="inputs">
+            <label for="phonenumber">Phone Number</label>
+            <input type="text" id="phonenumber" required />
+          </div>
+          <div class="inputs">
+            <label for="password">Password</label>
+            <input type="password" id="password" required />
+          </div>
+          <div class="inputs">
+            <label for="confirmpw">Confirm Password</label>
+            <input type="password" id="confirmpw" required />
+          </div>
+          <div>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+        <footer>
+          <p>Already have an accoung? <a href="#">Log in</a></p>
+        </footer>
+      </div>
+    </main>
   </body>
 </html>
