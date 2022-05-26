@@ -211,6 +211,10 @@ form {
   box-shadow: 10px 5px 5px #f5f5f5;
 }
 
+#password, #confirmpassword:invalid{
+border-color: red;
+}
+
 .inputs {
   margin-top: 7px;
   margin-left: -4px;
@@ -254,6 +258,8 @@ button:hover {
 footer {
   margin: 30px;
 }
+
+
 
 footer a {
   text-decoration: none;
